@@ -1,0 +1,201 @@
+product_id,category,brand,unit_price
+1,Electronics,Mendez PLC,450.77
+2,Home,Shaw Group,475.07
+3,Home,Goodman-Ross,284.49
+4,Toys,"Silva, Hernandez and Guzman",63.35
+5,Books,Lam-Mckee,23.86
+6,Electronics,Ford-Wright,372.26
+7,Books,Wang and Sons,456.58
+8,Books,Day-Coleman,13.89
+9,Home,Brooks-White,316.93
+10,Toys,Robinson-Moore,430.68
+11,Fashion,"Turner, Thomas and Barnes",398.96
+12,Toys,"Franklin, Marsh and Galvan",450.61
+13,Books,Gallagher-Taylor,440.3
+14,Electronics,Goodman Ltd,324.1
+15,Fashion,"Reed, Jenkins and Daniels",27.0
+16,Home,Rubio-Mitchell,420.94
+17,Toys,Acevedo-Graham,150.14
+18,Electronics,"Villa, Woods and Hall",273.18
+19,Electronics,Hansen-White,461.07
+20,Fashion,Sanders and Sons,30.54
+21,Books,Duke PLC,39.84
+22,Books,Mathis PLC,316.12
+23,Fashion,Brewer PLC,323.49
+24,Home,"Sanders, Bailey and Cortez",87.44
+25,Toys,Woodard Ltd,152.31
+26,Home,"Bailey, Grant and Grimes",232.54
+27,Books,Petersen-Miller,50.11
+28,Fashion,Bowman PLC,291.2
+29,Electronics,"Gross, Koch and Martinez",47.56
+30,Toys,Adams-Perez,140.0
+31,Electronics,Bennett PLC,382.1
+32,Toys,Faulkner PLC,352.62
+33,Fashion,"Morgan, Herman and Frost",60.55
+34,Toys,"Kelly, Bates and Evans",11.22
+35,Electronics,Williams PLC,318.83
+36,Fashion,Landry and Sons,486.43
+37,Home,"Steele, Johnson and Ingram",46.01
+38,Electronics,Cantu Inc,300.84
+39,Electronics,"King, Chaney and English",97.36
+40,Home,"Reynolds, Dyer and Curry",179.52
+41,Fashion,Reese-Weaver,287.5
+42,Home,Christian-Reed,272.61
+43,Books,Torres-Horton,60.07
+44,Electronics,"Hamilton, Hall and Carter",478.29
+45,Books,Foster-Martin,311.18
+46,Fashion,"Palmer, Stone and Ferguson",181.92
+47,Electronics,Meadows-Nguyen,256.98
+48,Toys,Vasquez-Ramirez,228.05
+49,Fashion,Baker-Nguyen,155.55
+50,Electronics,"Johnson, Park and Lewis",215.49
+51,Home,Vincent Ltd,416.19
+52,Fashion,"Choi, Briggs and Dodson",221.19
+53,Toys,Hill Inc,401.07
+54,Electronics,Webb Group,167.48
+55,Fashion,"Curry, Hoover and Torres",373.58
+56,Electronics,Golden-Cole,226.67
+57,Electronics,May-Blair,98.35
+58,Books,George LLC,359.07
+59,Fashion,Garza Inc,313.72
+60,Home,Oliver-Wells,36.68
+61,Toys,Mitchell LLC,151.29
+62,Toys,Charles Inc,422.45
+63,Home,Adams-Moore,117.77
+64,Home,Ward-Olson,150.6
+65,Books,Gonzalez-Austin,61.18
+66,Fashion,Rodriguez-Delgado,252.91
+67,Toys,Jordan Group,123.26
+68,Toys,Gutierrez LLC,53.88
+69,Toys,Miller Ltd,453.89
+70,Home,Vazquez and Sons,202.74
+71,Books,Adams-Cruz,68.96
+72,Home,Tapia-Harris,236.91
+73,Fashion,Mcdowell-Walker,307.8
+74,Toys,Coleman-Cook,384.75
+75,Books,"Reed, Price and Escobar",160.63
+76,Fashion,Miller-Mueller,96.78
+77,Fashion,Lopez Inc,292.32
+78,Fashion,Anderson-Maldonado,59.54
+79,Electronics,"Brown, Thomas and Garcia",93.95
+80,Books,Mclean PLC,227.37
+81,Electronics,"Moore, Smith and Wallace",248.77
+82,Fashion,Ochoa-Thomas,304.51
+83,Electronics,"Thomas, Schmidt and Perry",121.54
+84,Home,Duncan-Tate,151.96
+85,Books,"Haynes, Jackson and Ramos",73.08
+86,Home,"Holmes, Gonzalez and Yu",102.19
+87,Electronics,"Valdez, White and Moore",124.1
+88,Toys,Perez-Perez,31.07
+89,Electronics,Olson-Webb,359.96
+90,Home,"Owens, Hinton and Swanson",412.75
+91,Books,"Adams, Martinez and Butler",364.21
+92,Books,Roberts-Waters,455.22
+93,Toys,"Fowler, Gomez and Hurst",19.22
+94,Fashion,"Conley, Mcfarland and Caldwell",191.27
+95,Toys,Phillips-Smith,344.42
+96,Fashion,Lyons Group,42.07
+97,Books,Shaw-Lopez,347.37
+98,Toys,"Burke, Chase and Anderson",10.96
+99,Books,Campbell Inc,303.4
+100,Electronics,"Guzman, Crawford and Smith",377.72
+101,Books,Reynolds Group,37.9
+102,Toys,Lee-Johnson,463.91
+103,Fashion,Johnson-Duffy,386.55
+104,Toys,Murphy-Ramos,25.7
+105,Toys,Juarez Inc,74.19
+106,Fashion,Mccarthy Group,47.84
+107,Electronics,"Osborn, Knapp and Moore",223.79
+108,Home,Anderson Ltd,95.26
+109,Electronics,"Burns, Hall and Wall",86.8
+110,Fashion,Ferguson-Powell,149.51
+111,Toys,Bell-Green,5.8
+112,Electronics,"Mccarthy, Bailey and Horn",294.17
+113,Fashion,Davis Ltd,90.84
+114,Fashion,Anderson-Mays,49.26
+115,Home,"Herrera, Martinez and Wheeler",48.54
+116,Toys,Baldwin-Campbell,354.19
+117,Books,Owens-Woodward,220.63
+118,Home,Morgan-Bennett,437.75
+119,Toys,English-Cruz,350.0
+120,Home,"Harvey, Leon and Anderson",490.96
+121,Toys,Brown-Kelly,296.08
+122,Toys,Collins Inc,173.72
+123,Books,Miller and Sons,30.95
+124,Home,"Flores, Davidson and Osborn",193.6
+125,Electronics,Ramirez LLC,334.39
+126,Home,"Lopez, Barrett and Smith",351.54
+127,Toys,Torres PLC,301.55
+128,Home,"Murray, Riley and Velez",208.49
+129,Electronics,Howard Group,173.73
+130,Electronics,Jimenez PLC,57.41
+131,Home,Matthews-Martin,401.65
+132,Fashion,Navarro and Sons,388.09
+133,Electronics,Miller Ltd,287.54
+134,Electronics,Jones-Roth,468.01
+135,Home,Gonzales Ltd,353.01
+136,Fashion,Figueroa-Mendoza,25.82
+137,Toys,Collins-Williams,61.44
+138,Electronics,Weiss Group,255.14
+139,Fashion,Smith Group,225.04
+140,Electronics,Patel and Sons,145.9
+141,Books,George-Young,10.6
+142,Electronics,"Duran, Evans and Young",258.93
+143,Toys,Benton Group,386.71
+144,Books,Scott-Meyers,249.48
+145,Books,Rogers Ltd,332.27
+146,Fashion,"Gray, Torres and Scott",35.0
+147,Toys,Browning-Ho,395.8
+148,Books,Wilson PLC,289.74
+149,Fashion,Diaz Group,292.85
+150,Fashion,Mitchell Inc,489.65
+151,Books,Summers-Gonzalez,75.18
+152,Books,Morgan-Cobb,58.79
+153,Home,Miller Ltd,76.65
+154,Fashion,Jenkins-Deleon,126.84
+155,Books,"Castro, Weeks and Ramirez",349.62
+156,Toys,"Roberts, Barker and Phillips",6.22
+157,Books,Khan-Moore,244.85
+158,Electronics,Phillips PLC,208.27
+159,Books,Guerra Ltd,27.17
+160,Toys,"Cummings, Buck and Brown",333.16
+161,Toys,"Guerrero, Valentine and Conrad",198.38
+162,Fashion,"Townsend, Malone and Ford",473.6
+163,Home,"Owen, Hill and Sanchez",374.11
+164,Home,Wood-Thomas,208.3
+165,Toys,"Martin, Montgomery and Olson",231.38
+166,Books,"Harris, Mills and Bishop",455.83
+167,Books,"Weaver, Knight and Hicks",298.94
+168,Fashion,Brewer Ltd,307.35
+169,Electronics,Bridges-Moon,17.45
+170,Books,Carson Group,442.08
+171,Toys,"Johnston, Tyler and Miller",249.03
+172,Books,Campos-Ochoa,172.43
+173,Home,Reilly-Graham,243.91
+174,Fashion,Washington PLC,75.66
+175,Books,Kim Inc,475.03
+176,Toys,Glass-Carroll,64.62
+177,Fashion,"Waters, Ramsey and Sanders",7.23
+178,Electronics,"Jackson, Taylor and Morrison",460.61
+179,Electronics,Mcgee LLC,241.86
+180,Electronics,Andersen and Sons,385.65
+181,Toys,Wilson-Peterson,282.32
+182,Books,Smith-Ibarra,182.82
+183,Fashion,"Harper, Vazquez and Williams",201.93
+184,Books,"Richardson, Larsen and Melton",176.0
+185,Toys,Henry LLC,316.3
+186,Electronics,Henry PLC,85.29
+187,Home,Owens Group,239.53
+188,Books,Holmes-Benson,488.07
+189,Fashion,"Burke, Hansen and Jackson",188.41
+190,Fashion,"Watkins, Smith and Spence",9.18
+191,Books,"Fernandez, Gomez and Mendez",48.21
+192,Electronics,"Wu, Davis and Sandoval",395.37
+193,Toys,"Brown, Shaw and Ford",174.6
+194,Electronics,Smith-Webb,244.63
+195,Books,Hughes-Pollard,103.62
+196,Books,"Harvey, Reed and James",264.77
+197,Toys,"Edwards, Rogers and Roberts",186.25
+198,Fashion,Flores-Watts,66.05
+199,Electronics,Cruz-Anderson,444.82
+200,Home,Reyes LLC,252.26
