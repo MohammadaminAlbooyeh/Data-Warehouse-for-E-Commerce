@@ -4,7 +4,7 @@ import random
 
 fake = Faker()
 
-# Customers
+# Generate Customers
 customers = []
 for i in range(1000):
     customers.append({
@@ -14,7 +14,7 @@ for i in range(1000):
         "signup_date": fake.date_between(start_date="-2y", end_date="today")
     })
 
-# Products
+# Generate Products
 products = []
 categories = ["Electronics", "Fashion", "Home", "Books", "Toys"]
 for i in range(200):
@@ -25,7 +25,7 @@ for i in range(200):
         "unit_price": round(random.uniform(5, 500), 2)
     })
 
-# Orders
+# Generate Orders
 orders = []
 for i in range(5000):
     cust = random.choice(customers)
@@ -37,14 +37,15 @@ for i in range(5000):
         "product_id": prod["product_id"],
         "order_date": fake.date_between(start_date="-1y", end_date="today"),
         "quantity": qty,
-        "total_amount": qty * prod["unit_price"]
+        "total_amount": round(qty * prod["unit_price"], 2)
     })
 
+# Convert to DataFrames
 df_customers = pd.DataFrame(customers)
 df_products = pd.DataFrame(products)
 df_orders = pd.DataFrame(orders)
 
-# Save to CSV (as raw data for ingestion)
+# Save CSV files
 df_customers.to_csv("customers.csv", index=False)
 df_products.to_csv("products.csv", index=False)
 df_orders.to_csv("orders.csv", index=False)
