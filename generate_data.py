@@ -1,51 +1,47 @@
-from faker import Faker
+import os
 import pandas as pd
+from faker import Faker
 import random
 
-fake = Faker()
+faker = Faker()
 
-# Generate Customers
+# --- Ensure folders exist ---
+os.makedirs("data/bronze", exist_ok=True)
+
+# --- Generate Customers ---
 customers = []
-for i in range(1000):
+for i in range(1, 11):
     customers.append({
-        "customer_id": i+1,
-        "name": fake.name(),
-        "location": fake.city(),
-        "signup_date": fake.date_between(start_date="-2y", end_date="today")
+        "customer_id": i,
+        "name": faker.name(),
+        "email": faker.email(),
+        "signup_date": faker.date_between(start_date='-2y', end_date='today')
     })
 
-# Generate Products
+pd.DataFrame(customers).to_csv("data/bronze/customers.csv", index=False)
+
+# --- Generate Products ---
 products = []
-categories = ["Electronics", "Fashion", "Home", "Books", "Toys"]
-for i in range(200):
+for i in range(1, 6):
     products.append({
-        "product_id": i+1,
-        "category": random.choice(categories),
-        "brand": fake.company(),
-        "unit_price": round(random.uniform(5, 500), 2)
+        "product_id": i,
+        "name": faker.word(),
+        "category": faker.word(),
+        "price": round(random.uniform(10, 100), 2)
     })
 
-# Generate Orders
+pd.DataFrame(products).to_csv("data/bronze/products.csv", index=False)
+
+# --- Generate Orders ---
 orders = []
-for i in range(5000):
-    cust = random.choice(customers)
-    prod = random.choice(products)
-    qty = random.randint(1, 5)
+for i in range(1, 21):
     orders.append({
-        "order_id": i+1,
-        "customer_id": cust["customer_id"],
-        "product_id": prod["product_id"],
-        "order_date": fake.date_between(start_date="-1y", end_date="today"),
-        "quantity": qty,
-        "total_amount": round(qty * prod["unit_price"], 2)
+        "order_id": i,
+        "customer_id": random.randint(1, 10),
+        "product_id": random.randint(1, 5),
+        "quantity": random.randint(1, 5),
+        "total_amount": round(random.uniform(10, 500), 2),
+        "order_date": faker.date_between(start_date='-1y', end_date='today')
     })
 
-# Convert to DataFrames
-df_customers = pd.DataFrame(customers)
-df_products = pd.DataFrame(products)
-df_orders = pd.DataFrame(orders)
-
-# Save CSV files
-df_customers.to_csv("customers.csv", index=False)
-df_products.to_csv("products.csv", index=False)
-df_orders.to_csv("orders.csv", index=False)
+pd.DataFrame(orders).to_csv("data/bronze/orders.csv", index=False)
